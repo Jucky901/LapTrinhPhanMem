@@ -55,9 +55,9 @@ form section{
     width: 370px;
 }
 
-.des input{
+.des textarea{
     width: 650px;
-    line-height: 5em;
+    height: 6em;
 }
 
 .save_reset_cancel{
