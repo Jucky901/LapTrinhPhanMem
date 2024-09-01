@@ -1,57 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=en>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WEB</title>
         <link rel="stylesheet" href="style.css">
+        <title>Something</title>
     </head>
     <body>
         <main>
-            
             <form>
-                <h3>Certificate</h3>
+                <h1>Certificate</h1>
                 <section>
-                    <div class="certi_info">
-                        <label >Certificate Name</label><br>
-                        <Select>
+                    <div class="info">
+                        <label>Certificate Name</label><br>
+                        <select>
                             <option>TOEIC</option>
-                        </Select>
-    
+                        </select>
                         <br>
-                    
-                        <label>Certificate Authority</label><br>
-                        <input type="text">
-                    
-                        <br>
-                    
+                        <label>Certification Authority</label><br>
+                        <input type="text"><br>
                         <label>License Number</label><br>
                         <input type="text">
                     </div>
-    
-                    <div class="certi_date">
-                        <div><label>Achieved Date<br><input type="date"></label></div>
+                        
+                
+                    <div class="date">
+                        <div><label>Achieve Date<br> <input type="date"></label></div>
                         <div><label>Expired Date<br><input type="date"></label></div>
-                        <div><input class="certi_checkbox" type="checkbox">This certificate does not exprired</div>
+                        <div><input class="cert_checkbox" type="checkbox">This certificate does not exprired</div>
                     </div>
     
-                    <div class="certi_score">
-                        <div><label>Score <br><input class="ip_score" type="number"></label></div> 
-                        <div><input class="certi_checkbox" type="checkbox">This is certificate of attendance</div>
+                    <div class="score">
+                        <div><label>Score<br></label> <input type="text" id="score_box"></div>
+                        <div><input class="cert_checkbox" type="checkbox" >This is certificate of attendance</div>
                     </div>
-    
-                    <div class="des">
+                    
+                    <div class="description">
                         <label>Description <br> <input type="text"></label>
                     </div>
     
-                    <div class="save_reset_cancel">
+                    <div class="buttons">
                         <button>Save</button>
                         <button>Reset</button>
                         <button>Cancel</button>
                     </div>
                 </section>
-                
-                
             </form>
         </main>
     </body>
