@@ -97,7 +97,7 @@ form h3{
     margin-right: auto;
 }
 
-form input, select{
+form input, select, textarea{
     background:transparent;
     border-bottom: 1px solid #ff7200;
     border-top: none;
@@ -157,9 +157,9 @@ form section{
     width: 370px;
 }
 
-.des input{
+.des textarea{
     width: 650px;
-    line-height: 5em;
+    height: 6em;
     border: 1px solid #ff7200;
 }
 
