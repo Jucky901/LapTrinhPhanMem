@@ -97,6 +97,10 @@ form h3{
     margin-right: auto;
 }
 
+form label{
+    color: lightblue;
+}
+
 form input, select, textarea{
     background:transparent;
     border-bottom: 1px solid #ff7200;
@@ -140,7 +144,7 @@ form section{
 }
 
 .certi_date .certi_checkbox{
-    margin-left: 80px;
+    margin-left: auto;
 
 }
 
