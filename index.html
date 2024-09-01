@@ -8,52 +8,72 @@
     </head>
     <body>
         <main>
+            <nav class="navbar">
+                <div class="icon">
+                    <h2 class="logo">MKSOL</h2>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Bài thi</a></li>
+                        <li><a href="#">Thi thử</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="content">
+                <form>
+                    <h3 style="text-align: center;">Certificate</h3>
+                    <section>
+                        <div class="certi_info">
+                            <label >Certificate Name</label><br>
+                            <Select none>
+                                <option value="none">--Select an option--</option>
+                                <option>TOEIC (Listening, Reading)</option>
+                                <option>TOEIC (Speaking, Writing)</option>
+                                <option>TOEIC (Listening, Reading, Speaking, Writing)</option>
+                            </Select>
+        
+                            <br>
+                        
+                            <label>Certificate Authority</label><br>
+                            <input type="text">
+                        
+                            <br>
+                        
+                            <label>License Number</label><br>
+                            <input type="text">
+                        </div>
+        
+                        <div class="certi_date">
+                            <div><label>Achieved Date<br><input type="date"></label></div>
+                            <div><label>Expired Date<br><input type="date"></label></div>
+                            <div><input class="certi_checkbox" type="checkbox">This certificate does not exprired</div>
+                        </div>
+        
+                        <div class="certi_score">
+                            <div><label>Score <br><input class="ip_score" type="number"></label></div> 
+                            <div><input class="certi_checkbox" type="checkbox">This is certificate of attendance</div>
+                        </div>
+        
+                        <div class="des">
+                            <label>Description <br> <input type="text"></label>
+                        </div>
+        
+                        <div class="save_reset_cancel">
+                            <button>Save</button>
+                            <button>Reset</button>
+                            <button>Cancel</button>
+                        </div>
+                    </section>
+                    
+                    
+                </form>
+            </div>
             
-            <form>
-                <h3 style="text-align: center;">Certificate</h3>
-                <section>
-                    <div class="certi_info">
-                        <label >Certificate Name</label><br>
-                        <Select none>
-                            <option value="none">--Select an option--</option>
-                            <option>TOEIC (Listening, Reading)</option>
-                            <option>TOEIC (Speaking, Writing)</option>
-                            <option>TOEIC (Listening, Reading, Speaking, Writing)</option>
-                        </Select>
-    
-                        <br>
-                    
-                        <label>Certificate Authority</label><br>
-                        <input type="text">
-                    
-                        <br>
-                    
-                        <label>License Number</label><br>
-                        <input type="text">
-                    </div>
-    
-                    <div class="certi_date">
-                        <div><label>Achieved Date<br><input type="date"></label></div>
-                        <div><label>Expired Date<br><input type="date"></label></div>
-                        <div><input class="certi_checkbox" type="checkbox">This certificate does not exprired</div>
-                    </div>
-    
-                    <div class="certi_score">
-                        <div><label>Score <br><input class="ip_score" type="number"></label></div> 
-                        <div><input class="certi_checkbox" type="checkbox">This is certificate of attendance</div>
-                    </div>
-    
-                    <div class="des">
-                        <label>Description <br> <textarea></textarea></label>
-                    </div>
-    
-                    <div class="save_reset_cancel">
-                        <button>Save</button>
-                        <button>Reset</button>
-                        <button>Cancel</button>
-                    </div>
-                </section>
-            </form>
         </main>
     </body>
 </html>
